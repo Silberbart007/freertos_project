@@ -1,0 +1,36 @@
+# Objektdateien
+*.o
+
+# Abhängigkeiten (Dependency files)
+*.d
+
+# Executables / Binaries
+freertos_posix_demo
+*.elf
+*.bin
+*.hex
+
+# Backup- und temporäre Dateien
+*~
+*.bak
+*.swp
+*.tmp
+
+# Build-Ordner (wenn du einen hast, z.B. 'build/')
+build/
+bin/
+
+# IDE/Editor-spezifische Dateien
+.vscode/
+.idea/
+*.code-workspace
+
+# Logs
+*.log
+
+# Sonstige temporäre Dateien
+*.log
+*.cache
+
+# FreeRTOS-spezifisch (falls automatisch generierte Dateien)
+# (z.B. je nach Toolchain/Editor)
